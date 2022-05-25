@@ -15,4 +15,32 @@ html {
 :root {
   /* CSS variables */
 
+  /* color */
+  --clr-dark: #0B0C10;
+  --clr-lightdark: #1F2833;
+  --clr-grey: #C5C6C7;
+  --clr-cyan: #66FCF1;
+  --clr-blue: #45A29E;
+
+  /* font size */
+  --fs-h1: 72px;
+  --fs-h2: 48px;
+}
+
+.main-content {
+  background-color: var(--clr-dark);
+  height: 100vh;
+  color: var(--clr-cyan);
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-h1);
+}
+
+.center {
+  margin: auto;
+}
+
+.subheading {
+  color: var(--clr-grey);
+  font-size: var(--fs-h2);
 }
