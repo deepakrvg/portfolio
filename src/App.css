@@ -9,6 +9,7 @@
 }
 
 html {
+  /* Smooth scroll */
   scroll-behavior: smooth;
 }
 
