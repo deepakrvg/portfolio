@@ -57,6 +57,11 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 2.8rem;
+  color: var(--clr-cyan);
+}
+
 section {
   margin-top: 8rem;
 }
@@ -96,6 +101,11 @@ a:hover {
   border-color: transparent;
 }
 
+.btn-primary {
+  background: var(--clr-cyan);
+  color: var(--clr-dark);
+}
+
 img {
   display: block;
   width: 100%;
@@ -133,7 +143,7 @@ img {
   font-size: var(--fs-h1);
 }
 
-.center {
+.center1 {
   margin: auto;
 }
 
@@ -175,4 +185,234 @@ nav a:hover {
 nav a.active {
   background: var(--clr-dark);
   color: var(--clr-white);
+}
+
+/* About section */
+.about-main {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+  font-size: 1.25rem;
+}
+
+.about__container {
+  width: 100%;
+  /* aspect-ratio: 1/1; */
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--clr-cyan), transparent);
+  display: grid;
+  place-items: center;
+}
+
+.about-img {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.about-img:hover {
+  transform: rotate(0);
+}
+
+.about-content h2 {
+  font-size: 2.8rem;
+  color: var(--clr-cyan);
+}
+
+.about-content p {
+  margin: 1.5rem 0 1.5rem;
+  color: var(--clr-grey);
+}
+
+/* meadia queries for medium devices */
+@media screen and (max-width: 1024px) {
+  .about-main {
+    grid-template-columns: 1fr;
+    gap: 0;
+    font-size: 1rem;
+  }
+
+  .about__container {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* meadia queries for small devices */
+@media screen and (max-width: 600px) {
+  .about__container {
+    width: 65%;
+    margin: 0 auto 3rem;
+    font-size: 1rem;
+  }
+
+  .about-content {
+    margin: 0.8rem;
+  }
+
+  .about-content p {
+    margin: 1.5rem 0;
+  }
+}
+
+/* projects section */
+.projects__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.projects__item {
+  width: 30%;
+  margin-top: 1.5rem;
+  padding: 1.75rem 1.25rem 1.75rem 1.25rem;
+  border-radius: 1.5rem;
+  background: rgba(31, 32, 37, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  transition: var(--transition);
+}
+
+.projects__item:hover {
+  box-shadow: 0 5px 15px rgba(102, 252, 241, 0.8);
+}
+
+.projects-img {
+  height: 190px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.more {
+  margin-top: 2rem;
+}
+
+.center {
+  margin-left: 45%;
+}
+
+/* meadia queries for medium devices */
+@media screen and (max-width: 1024px) {
+  .projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  
+  .projects__item {
+    width: 45%;
+  }
+  
+  .projects-img {
+    height: 190px;
+  }
+}
+
+/* meadia queries for small devices */
+@media screen and (max-width: 600px) {
+  .projects__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .projects__item {
+    width: 95%;
+    margin-left: 0.5rem;
+  }
+  
+  .projects-img {
+    height: 190px;
+  }
+
+  .center {
+    margin-left: 30%;
+  }
+}
+
+/* skills container */
+.skills__container {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.skills-item {
+  width: 11%;
+  border-radius: 1.5rem;
+  background: rgba(31, 32, 37, 0.6);
+  padding: 1rem;
+  margin: 1rem;
+  transition: var(--transition);
+}
+
+.skills-item:hover {
+  box-shadow: 0 5px 15px rgba(102, 252, 241, 0.8);
+}
+
+/* meadia queries for medium devices */
+@media screen and (max-width: 1024px) {
+  .skills-item {
+    width: 19%;
+    margin: 0.9rem;
+  }
+}
+
+/* meadia queries for small devices */
+@media screen and (max-width: 600px) {
+  .skills-item {
+    width: 38%;
+  }
+}
+
+/* contacts section */
+.contact__container {
+  background: rgba(179, 175, 175, 0.3);
+  /* width: max-content; */
+  height: max-content;
+  display: block;
+  padding: 0.7rem 0.5rem;
+  z-index: 2;
+  position: fixed;
+  top: 40%;
+  left: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+.contact__container a {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--clr-grey);
+  font-size: 1.2rem;
+}
+
+.contact__container a:hover {
+  background: rgba(179, 175, 175, 0.2);
+}
+
+/* media queries for medium devices */
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    left: 90%;
+  }
+}
+
+/* meadia queries for small devices */
+@media screen and (max-width: 600px) {
+  .contact__container {
+    left: 80%;
+  }
 }

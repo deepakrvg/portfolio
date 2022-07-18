@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <section className="container">
             <div className="main-content">
-                <div className="center">
+                <div className="center1">
                     <p>Hello, I am</p>
                     <p>Deepak Gupta</p>
                     <p className="subheading">I am a Full Stack Developer and<br />Competitive Programmer!</p>

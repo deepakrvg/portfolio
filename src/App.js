@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header.js'
-import Footer from './components/Footer.js'
+import Skills from './components/Skills.js'
 import Nav from './components/Nav.js'
 import Projects from './components/Projects.js'
 import Contact from './components/Contact.js'
@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Header />
       <Nav />
-      <About />
       <Projects />
+      <Skills />
+      <About />
       <Contact />
-      <Footer />
     </div>
   );
 }
