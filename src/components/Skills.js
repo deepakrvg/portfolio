@@ -18,6 +18,12 @@ const Skills = () => {
                     <h3>JavaScript</h3>
                 </article>
                 <article className="skills-item">
+                    <h3>Python</h3>
+                </article>
+                <article className="skills-item">
+                    <h3>C++</h3>
+                </article>
+                <article className="skills-item">
                     <h3>HTML</h3>
                 </article>
                 <article className="skills-item">

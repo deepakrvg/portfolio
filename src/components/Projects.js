@@ -1,8 +1,8 @@
 import React from 'react'
+import portfolioweb from '../assets/portfolioweb.png'
 import alien_invasion from '../assets/alien_invasion.jpg'
 import frisbee from '../assets/frisbee.jpeg'
 import auctionate1 from '../assets/auctionate1.jpeg'
-import auctionate2 from '../assets/auctionate2.jpeg'
 import falcon from '../assets/falcon.jpeg'
 import wiki from '../assets/wiki.jpeg'
 
@@ -13,14 +13,14 @@ const Projects = () => {
             <div className="container projects__container">
                 <article className="projects__item hover">
                     <div className="projects-img">
-                        <img src={auctionate1} alt="project image" />
+                        <img src={portfolioweb} alt="project image" />
                     </div>
                     <h3>Portfolio Website</h3>
                     <a href="https://github.com/deepakrvg/portfolio" className="btn" target="_blank">Github</a>
                 </article>
                 <article className="projects__item">
                     <div className="projects-img">
-                        <img src={auctionate2} alt="project image" />
+                        <img src={auctionate1} alt="project image" />
                     </div>
                     <h3>Auctionate: Online Auction Site</h3>
                     <a href="https://github.com/deepakrvg/Auctionate" className="btn" target="_blank">Github</a>

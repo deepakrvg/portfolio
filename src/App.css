@@ -134,22 +134,291 @@ img {
   }
 }
 
+/* home page */
 .main-content {
   background-color: var(--clr-dark);
   height: 100vh;
   color: var(--clr-cyan);
   display: flex;
   align-items: center;
-  font-size: var(--fs-h1);
+  font-size: 8rem;
+}
+
+.subheading {
+  color: var(--clr-grey);
+  font-size: 2rem;
+}
+
+.link {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  margin-left: 2rem;
 }
 
 .center1 {
   margin: auto;
 }
 
-.subheading {
-  color: var(--clr-grey);
-  font-size: var(--fs-h2);
+.home-left {
+  display: inline-block;
+  transform: rotate(270deg);
+  position: relative;
+  right: 3.1rem;
+  top: 8.5rem;
+}
+
+.home-right {
+  display: inline-block;
+  transform: rotate(90deg);
+  position: relative;
+  left: 51.6rem;
+  top: 9rem;
+}
+
+.home-up {
+  display: inline-block;
+  position: relative;
+  top: 4rem;
+  right: 8rem;
+}
+
+.home-down {
+  display: inline-block;
+  position: relative;
+  bottom: 2.5rem;
+  left: 32rem;
+}
+
+.leftline {
+  width: 60%;
+  height: 4px;
+  border-bottom: 2px solid var(--clr-grey);
+  position: relative;
+  left: 22.5rem;
+  top: 2.25rem;
+}
+
+.rightline {
+  width: 52%;
+  height: 4px;
+  border-bottom: 2px solid var(--clr-grey);
+  position: relative;
+  left: 1rem;
+  bottom: 0.75rem;
+}
+
+/* media queries for medium devices */
+@media screen and (max-width: 1260px) {
+  .main-content {
+    font-size: 6.6rem;
+  }
+
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .home-left {
+    display: inline-block;
+    transform: rotate(270deg);
+    position: relative;
+    right: 2.5rem;
+    top: 7.3rem;
+  }
+  
+  .home-right {
+    display: inline-block;
+    transform: rotate(90deg);
+    position: relative;
+    left: 42.6rem;
+    top: 7.5rem;
+  }
+  
+  .home-up {
+    display: inline-block;
+    position: relative;
+    top: 4rem;
+    right: 7rem;
+  }
+  
+  .home-down {
+    display: inline-block;
+    position: relative;
+    bottom: 2rem;
+    left: 26.5rem;
+  }
+  
+  .leftline {
+    width: 62%;
+    height: 4px;
+    border-bottom: 2px solid var(--clr-grey);
+    position: relative;
+    left: 17rem;
+    top: 2.5rem;
+  }
+  
+  .rightline {
+    width: 52%;
+    height: 4px;
+    border-bottom: 2px solid var(--clr-grey);
+    position: relative;
+    left: 1rem;
+    bottom: 0.7rem;
+  }
+
+  .link {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left {
+    margin-left: 1.75rem;
+  }
+  
+}
+
+/* meadia queries for small devices */
+@media screen and (max-width: 900px) {
+  .main-content {
+    font-size: 4.4rem;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
+  }
+
+  .home-left {
+    display: inline-block;
+    transform: rotate(270deg);
+    position: relative;
+    right: 2.2rem;
+    top: 5.2rem;
+  }
+  
+  .home-right {
+    display: inline-block;
+    transform: rotate(90deg);
+    position: relative;
+    left: 28rem;
+    top: 5.2rem;
+  }
+  
+  .home-up {
+    display: inline-block;
+    position: relative;
+    top: 2.6rem;
+    right: 6rem;
+  }
+  
+  .home-down {
+    display: inline-block;
+    position: relative;
+    bottom: 1.8rem;
+    left: 15rem;
+  }
+  
+  .leftline {
+    width: 55%;
+    height: 4px;
+    border-bottom: 2px solid var(--clr-grey);
+    position: relative;
+    left: 14rem;
+    top: 1.5rem;
+  }
+  
+  .rightline {
+    width: 42%;
+    height: 4px;
+    border-bottom: 2px solid var(--clr-grey);
+    position: relative;
+    left: 1rem;
+    bottom: 0.7rem;
+  }
+
+  .link {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left {
+    margin-left: 1.5rem;
+  }
+  
+}
+
+/* meadia queries for small devices */
+@media screen and (max-width: 600px) {
+  .main-content {
+    font-size: 2.5rem;
+  }
+
+  .subheading {
+    font-size: 0.8rem;
+  }
+
+  .home-left {
+    display: inline-block;
+    transform: rotate(270deg);
+    position: relative;
+    right: 1.3rem;
+    top: 3.2rem;
+  }
+  
+  .home-right {
+    display: inline-block;
+    transform: rotate(90deg);
+    position: relative;
+    left: 15.5rem;
+    top: 3.2rem;
+  }
+  
+  .home-up {
+    display: inline-block;
+    position: relative;
+    top: 1.7rem;
+    right: 3.4rem;
+  }
+  
+  .home-down {
+    display: inline-block;
+    position: relative;
+    bottom: 1.1rem;
+    left: 7.8rem;
+  }
+  
+  .leftline {
+    width: 51%;
+    height: 4px;
+    border-bottom: 2px solid var(--clr-grey);
+    position: relative;
+    left: 8.7rem;
+    top: 0.9rem;
+  }
+  
+  .rightline {
+    width: 39%;
+    height: 4px;
+    border-bottom: 2px solid var(--clr-grey);
+    position: relative;
+    left: 0.4rem;
+    bottom: 0.4rem;
+  }
+
+  .link {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left {
+    margin-left: 1rem;
+  }
+  
 }
 
 /* Floating nav bar */

@@ -12,7 +12,7 @@ const About = () => {
                     <h2>About Me</h2>
                     <p>Hi I am Deepak Gupta.<br />I am Full Stack Developer and Competitive Programmer located in India.</p>
                     <p>I am 4* star coder on CodeChef. Its fun for me taking part in Competitive Programming. I am curious to know about how things work around.</p>
-                    <p>I passionate about programming and have a great interest in Backend Development. I am also fascinated about AI/ML.</p>                    
+                    <p>I passionate about programming and have a great interest in Full Stack Development. I am also fascinated about AI/ML.</p>                    
                 </div>
             </div>
         </section>
