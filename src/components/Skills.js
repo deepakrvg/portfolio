@@ -15,7 +15,19 @@ const Skills = () => {
                     <h3>ReactJS</h3>
                 </article>
                 <article className="skills-item">
+                    <h3>NodeJS</h3>
+                </article>
+                <article className="skills-item">
+                    <h3>ExpressJS</h3>
+                </article>
+                <article className="skills-item">
+                    <h3>MongoDB</h3>
+                </article>
+                <article className="skills-item">
                     <h3>JavaScript</h3>
+                </article>
+                <article className="skills-item">
+                    <h3>Postman</h3>
                 </article>
                 <article className="skills-item">
                     <h3>Python</h3>
@@ -24,7 +36,7 @@ const Skills = () => {
                     <h3>C++</h3>
                 </article>
                 <article className="skills-item">
-                    <h3>MERN</h3>
+                    <h3>Flask</h3>
                 </article>
                 <article className="skills-item">
                     <h3>HTML</h3>
