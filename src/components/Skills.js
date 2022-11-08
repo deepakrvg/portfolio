@@ -24,6 +24,9 @@ const Skills = () => {
                     <h3>MongoDB</h3>
                 </article>
                 <article className="skills-item">
+                    <h3>SQL</h3>
+                </article>
+                <article className="skills-item">
                     <h3>JavaScript</h3>
                 </article>
                 <article className="skills-item">
@@ -43,9 +46,6 @@ const Skills = () => {
                 </article>
                 <article className="skills-item">
                     <h3>CSS</h3>
-                </article>
-                <article className="skills-item">
-                    <h3>SQL</h3>
                 </article>
                 <article className="skills-item">
                     <h3>Linux</h3>
