@@ -9,7 +9,7 @@ const Skills = () => {
                     <h3>Django</h3>
                 </article>
                 <article className="skills-item">
-                    <h3>Flask</h3>
+                    <h3>MERN</h3>
                 </article>
                 <article className="skills-item">
                     <h3>ReactJS</h3>
@@ -22,6 +22,9 @@ const Skills = () => {
                 </article>
                 <article className="skills-item">
                     <h3>C++</h3>
+                </article>
+                <article className="skills-item">
+                    <h3>MERN</h3>
                 </article>
                 <article className="skills-item">
                     <h3>HTML</h3>
